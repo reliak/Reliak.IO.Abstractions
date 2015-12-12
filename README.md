@@ -15,13 +15,13 @@ public interface IFileSystem
 }
 ```
 
-# Installation / NuGet package
+### Installation / NuGet package
 Install via NuGet Packagemanager:
 ```
 PM> Install-Package Reliak.IO.Abstractions
 ```
 
-# Exemplary usage
+### Exemplary usage
 ```
 // using default implementation
 IFileSystem fs = new DefaultFileSystem();
@@ -34,5 +34,5 @@ if(!fs.Directory.Exists(someDirectory))
 }
 ```
 
-# License
+### License
 https://opensource.org/licenses/MIT
