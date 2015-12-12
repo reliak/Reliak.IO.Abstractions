@@ -15,6 +15,12 @@ public interface IFileSystem
 }
 ```
 
+# Installation / NuGet package
+Install via NuGet Packagemanager:
+```
+PM> Install-Package Reliak.IO.Abstractions
+```
+
 # Exemplary usage
 ```
 // using default implementation

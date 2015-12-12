@@ -3,7 +3,7 @@
     "description": "Provides interface abstractions for System.IO filesystem entities. Also provides a default implementation of IFileSystem that provides the default behavior of the System.IO implementations.",
     "authors": [ "Daniel Kailer" ],
     "tags": [ "filesystem", "file", "directory", "io", "abstraction", "testable" ],
-    "projectUrl": "",
+    "projectUrl": "https://github.com/reliak/Reliak.IO.Abstractions",
     "licenseUrl": "https://opensource.org/licenses/MIT",
 
     "frameworks": {
