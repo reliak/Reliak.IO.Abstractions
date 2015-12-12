@@ -1,0 +1,20 @@
+﻿{
+    "version": "0.1.0",
+    "description": "Provides interface abstractions for System.IO filesystem entities. Also provides a default implementation of IFileSystem that provides the default behavior of the System.IO implementations.",
+    "authors": [ "Daniel Kailer" ],
+    "tags": [ "filesystem", "file", "directory", "io", "abstraction", "testable" ],
+    "projectUrl": "",
+    "licenseUrl": "https://opensource.org/licenses/MIT",
+
+    "frameworks": {
+        "net451": { },
+        "dotnet5.4": {
+            "dependencies": {
+                "System.Linq": "4.0.1-beta-23516",
+                "System.IO.FileSystem": "4.0.1-beta-23516",
+                "System.IO.FileSystem.AccessControl": "4.0.0-beta-23516",
+                "System.IO.FileSystem.DriveInfo": "4.0.0-beta-23516"
+            }
+        }
+    }
+}
